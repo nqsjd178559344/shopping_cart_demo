@@ -1,0 +1,60 @@
+.shopping-cart{
+  /* 待修改 */
+  width: 1296px; 
+  /* width: 100%; */
+  /* height: auto; */
+  /* background-color: pink; */
+  /* padding: 0 30px; */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* header区 */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8px;
+}
+
+.header-title{
+
+}
+
+.header-cart{
+  position: relative;
+}
+
+.cart-wrapper{
+  display: none;
+  /* display: block; */
+  /* background-color: yellow; */
+  position: absolute;
+  right: 0px;
+  width: 150px;
+  height: auto;
+  /* display: flex; */
+}
+.header-cart:hover .cart-wrapper{
+  display: block;
+}
+.cart{
+
+}
+.cart-item{
+  width: 100%;
+  display: flex;
+}
+
+.cart-name{
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
+}
+
+/* 内容区 */
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
