@@ -137,6 +137,10 @@ module.exports = function (webpackEnv) {
           sourceMap: isEnvProduction ? shouldUseSourceMap : isEnvDevelopment,
         },
       },
+      // {
+      //   loader: require.resolve('less-loader'),
+      //   // options: cssOptions,
+      // },
     ].filter(Boolean);
     if (preProcessor) {
       loaders.push(
