@@ -17,7 +17,7 @@ function Item(props) {
         </div>
         <div className="bottom">
             <span className="item-name">
-                {item.name}
+                {item.name}-{item.address}
             </span>
             <div className="item-priceWrapper">
                 <span className="item-priceWrapper-price">

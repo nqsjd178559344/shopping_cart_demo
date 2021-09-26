@@ -1,7 +1,6 @@
 import Item from './components/Item'
 import Cart from './components/Cart'
 import Mock, { Random } from 'mockjs'
-import { inject, observer } from 'mobx-react'
 import './App.less'
 
 const data = Mock.mock({
@@ -11,7 +10,25 @@ const data = Mock.mock({
       'id|+1': 1,
       'imgWidth': '@integer(100,500)',
       'imgHeight': '@integer(100,500)',
-      'name': '苹果-广西南宁自治县巴拉巴拉~',
+      'address': Random.county(true),
+      'name': '苹果',
+      "name|+1": [
+        "苹果",
+        "橘子",
+        "柠檬",
+        "榴莲",
+        "荔枝",
+        "龙眼",
+        "葡萄",
+        "水蜜桃",
+        "柚子",
+        "李子",
+        "栗子",
+        "梨",
+        "哈密瓜",
+        "香瓜",
+        "西瓜",
+      ],
       'backgroundColor': Random.color(),
       'backgroundImage': Random.image('500x@imgHeight'), // 高度不统一时宽度不可使用相同方式指定
       "price|1-100.2": 1,
