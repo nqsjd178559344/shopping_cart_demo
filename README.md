@@ -1,1 +1,8 @@
-目的功能: 热更新 + less + webpack打包
+# 功能
+
+  - [x] less
+  - [x] mock模拟数据
+  - [x] mobx数据流
+  - [x] mocha测试
+  - [x] webpack打包
+  - [ ] 热更新
