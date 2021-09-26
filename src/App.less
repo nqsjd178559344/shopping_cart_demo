@@ -1,10 +1,5 @@
 .shopping-cart {
-    /* 待修改 */
     width: 1296px;
-    /* width: 100%; */
-    /* height: auto; */
-    /* background-color: pink; */
-    /* padding: 0 30px; */
     margin: 0 auto;
     box-sizing: border-box;
 
@@ -22,13 +17,15 @@
 
             .cart-wrapper {
                 display: none;
-                /* display: block; */
-                /* background-color: yellow; */
                 position: absolute;
                 right: 0px;
                 width: 150px;
                 height: auto;
-                /* display: flex; */
+
+                background-color: #FFF;
+                padding: 5px;
+                box-sizing: border-box;
+                border: 1px solid slategrey;
 
                 .cart {}
 
@@ -46,8 +43,9 @@
                 }
             }
 
-            .header-cart:hover .cart-wrapper {
+            &:hover .cart-wrapper {
                 display: block;
+
             }
 
         }
