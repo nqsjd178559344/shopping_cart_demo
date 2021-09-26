@@ -3,6 +3,8 @@ import Cart from './components/Cart'
 import Mock, { Random } from 'mockjs'
 import './App.less'
 
+import './utils/rem'
+
 const data = Mock.mock({
   'list|10-15': [
     {
