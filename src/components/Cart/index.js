@@ -8,11 +8,11 @@ function Cart({ cartStore }) {
         cartStore.handleDel(item)
     }
 
-    const handleBuy = ()=>{
-        const sum  = cartStore.list.reduce((prev,cur)=>{
-            const targetSum = cur.price *  cur.num
+    const handleBuy = () => {
+        const sum = cartStore.list.reduce((prev, cur) => {
+            const targetSum = cur.price * cur.num
             return prev += targetSum
-        },0)
+        }, 0)
         // 暂时处理精度问题
         const newSum = sum.toFixed(2)
         alert(newSum)
