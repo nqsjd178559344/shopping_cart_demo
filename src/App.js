@@ -2,12 +2,7 @@ import Item from './components/Item'
 import Cart from './components/Cart'
 import Mock, { Random } from 'mockjs'
 import { inject, observer } from 'mobx-react'
-import './App.css'
-
-/**
- * 设计: 
- * less + mock + mobx + mocha测试[未做]
- */
+import './App.less'
 
 const data = Mock.mock({
   'list|10-15': [
