@@ -2,7 +2,7 @@ import Item from './components/Item'
 import Cart from './components/Cart'
 import Mock, { Random } from 'mockjs'
 import { inject, observer } from 'mobx-react'
-import './App.css'
+import './App.less'
 
 /**
  * 设计: 
